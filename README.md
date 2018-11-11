@@ -13,3 +13,8 @@
 - [2018  (ISMIR)  On the Relationships between Music-induced Emotion and Physiological Signals](https://github.com/1996Wanglei/Papernotes/blob/master/2018_Notes/On_the_Relationships_between_Music-induced_Emotion_and_Physiological_Signal.md)
 - [2018  (ISMIR)  Music Emotion Recognition based on Audio and Lyrics](https://github.com/1996Wanglei/Papernotes/blob/master/2018_Notes/Music_Mood_Detection_Based_On_Audio_And_Lyrics_With_Deep_Neural_Net.md) 
 
+2018-11
+
+- [2018  (Arxiv)  A Tutorial on Deep Learning for Music Information Retrieva](https://github.com/1996Wanglei/Papernotes/blob/master/2018_Notes/A%20Tutorial%20on%20Deep%20Learning%20for%20Music%20Information%20Retrieval.md)
+- [2010 (ISMIR)  Music Emotion Recognition_ A State Of The Art Review](https://github.com/1996Wanglei/Papernotes/blob/master/2018_Notes/Music%20Emotion%20Recognition_%20A%20State%20Of%20The%20Art%20Review.md)
+

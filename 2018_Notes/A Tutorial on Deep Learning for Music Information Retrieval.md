@@ -1,5 +1,7 @@
 A Tutorial on Deep Learning for Music Information Retrieval
 
+论文地址：https://arxiv.org/abs/1709.04396
+
 作者希望能够通过这篇文章激发初学者的兴趣，因此对相关内容作了一个简单介绍，并且回顾了前面已有的相关研究。
 
 由于深度学习领域日渐在MIR研究趋于流行，这一方面在ISMIR上的文章也越来越多，所以这篇文章也介绍了一些关于深度学习的方法和在MIR中的应用。怎么设计结构、如何训练、什么时候该使用深度学习是了解深度的基础。深度学习包括EBP(error backpropagation), CNN, LSTM, DNN等，DNN使训练速度明显提升，ReLU激活函数是在图像识别和声音识别上的一大创新。
