@@ -1,5 +1,7 @@
 ## Music Emotion Recognition_ A State Of The Art Review
 
+论文地址：http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.231.7740&rep=rep1&type=pdf
+
 本文综述了音乐情感自动识别的研究现状（2010年）。
 
 * 情绪心理学研究
