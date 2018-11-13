@@ -17,5 +17,4 @@
 
 - [2018  (Arxiv)  A Tutorial on Deep Learning for Music Information Retrieva](https://github.com/1996Wanglei/Papernotes/blob/master/2018_Notes/A%20Tutorial%20on%20Deep%20Learning%20for%20Music%20Information%20Retrieval.md)
 - [2010 (ISMIR)  Music Emotion Recognition_ A State Of The Art Review](https://github.com/1996Wanglei/Papernotes/blob/master/2018_Notes/Music%20Emotion%20Recognition_%20A%20State%20Of%20The%20Art%20Review.md)
-- [2018 (ISMIR)  Musical Texture And Expressivity Features For Music Emotion Recognition]
-(https://github.com/1996Wanglei/Papernotes/blob/master/2018_Notes/MUSICAL%20TEXTURE%20AND%20EXPRESSIVITY%20FEATURES%20FOR%20MUSIC%20EMOTION%20RECOGNITION.md)
+- [2018 (ISMIR)  Musical Texture And Expressivity Features For Music Emotion Recognition](https://github.com/1996Wanglei/Papernotes/blob/master/2018_Notes/MUSICAL%20TEXTURE%20AND%20EXPRESSIVITY%20FEATURES%20FOR%20MUSIC%20EMOTION%20RECOGNITION.md)
