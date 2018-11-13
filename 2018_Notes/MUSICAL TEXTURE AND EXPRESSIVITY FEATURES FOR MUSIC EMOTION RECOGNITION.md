@@ -4,7 +4,7 @@
 
 论文地址：http://ismir2018.ircam.fr/doc/pdfs/250_Paper.pdf
 
-####Motivation：
+### Motivation：
 
 - 在整个MER领域的研究中，依然有很多Limitation：一是缺乏公共的高质量的数据集；二是与情感相关的声学特征的数量不足
 - 很多的音频特征最初都是被用于解决其他的问题（比如语音识别），而缺乏情感相关性
@@ -97,7 +97,7 @@
 
 
 
-####Results
+### Results
 
 分类的结果，主要是评估目前的音频特征以及作者提出的新型特性与MER的相关性。其中baseline最好为67.5%左右（100个特征内），而加入novel features之后，novel+baseline的最好F1-Score为76.0%，100个特征中有29个是novel，8个texture，21个expressive，剩下71个还是baseline（50个tone color相关 音色）
 
