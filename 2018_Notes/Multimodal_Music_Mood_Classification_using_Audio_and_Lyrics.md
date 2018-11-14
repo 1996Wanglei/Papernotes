@@ -20,7 +20,7 @@ By 王磊，好难读啊，好烦啊。
 
   timbral (for instance MFCC, spectral centroid), rhythmic(for example tempo, onset rate), tonal (like Harmonic Pitch Class Profiles) and temporal descriptors,使用的分类器是SVM，Logistic Regression，Random Forest
 
-  ![](C:\Users\wanglei\Desktop\1542183642(1).jpg)
+  ![](https://github.com/1996Wanglei/Papernotes/blob/master/2018_ImageSet/reauslt_1.jpg)
 
 - **Lyrics-based classification**
 
@@ -32,7 +32,7 @@ By 王磊，好难读啊，好烦啊。
 
   基于一个假设：相似的歌曲它们的体裁，情感也是相似的。一个词袋模型对应一首歌曲，模型的元素是tf-idf权重，歌曲之间的相似性可以用词袋模型来表示。分类器使用的KNN算法，相似的向量就划分到一起。
 
-  ![](C:\Users\wanglei\Desktop\1542196272(1).jpg)
+  ![](https://github.com/1996Wanglei/Papernotes/blob/master/2018_ImageSet/reauslt_2.jpg)
 
   实验的结果不是很好，因为随机分类的baseline是50%。同样也很难直接融合audio的和lyrics的相似性计算方法，audio这边有不同的分类算法，而lyrics方面则不是。歌词词向量的维度很高，而且是稀疏向量。
 
@@ -42,7 +42,7 @@ By 王磊，好难读啊，好烦啊。
 
   作者在第一个实验中发现词-文档矩阵的维度太高，使用LSA的方法将这个矩阵降维到一个低维的空间，更多的分类器可以使用这个特征，作者发现不同的类别，具有最好性能的矩阵维度也不同。
 
-  ![](C:\Users\wanglei\Desktop\1542200541(1).jpg)
+  ![](https://github.com/1996Wanglei/Papernotes/blob/master/2018_ImageSet/reauslt_3.jpg)
 
   > If our mood categories, as seems to be the case, do not relate to clusters of songs that would be considered similar according to the metrics used in document retrieval,this severely limits the potential of any approaches that are based on document distances with tf.idf weighting 
 
@@ -52,9 +52,9 @@ By 王磊，好难读啊，好烦啊。
 
   定义document frequency :the proportion of documents containing a given term ,选出不同语言模型中出现频率最高的词汇，这些词汇属于四种分类类别。选用公式3的计算方法，选出n个具有最高mixed值得词汇组成向量。使用SVM,Logstic,RandForest分类器分类。
 
-  ![1542202355257](C:\Users\wanglei\AppData\Roaming\Typora\typora-user-images\1542202355257.png)
+  ![1542202355257](https://github.com/1996Wanglei/Papernotes/blob/master/2018_ImageSet/reauslt_4.jpg)
 
-    ![](C:\Users\wanglei\Desktop\1542204113(1).jpg)
+    ![](https://github.com/1996Wanglei/Papernotes/blob/master/2018_ImageSet/reauslt_5.jpg)
 
  实验结果表明这种方法的分类性能比前面基于距离的方法有较大的提升，其中SVM的分类准确率达到了80%，这个结果也接近基于audio特征的分类结果。
 
@@ -66,4 +66,5 @@ By 王磊，好难读啊，好烦啊。
 
   此外，融合特征的分类方法可以减伤标准差，分类的系统会更加鲁棒。
 
-  ![](C:\Users\wanglei\Desktop\1542204922(1).jpg)
+  ![](https://github.com/1996Wanglei/Papernotes/blob/master/2018_ImageSet/reauslt_6.jpg)
+
