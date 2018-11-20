@@ -4,6 +4,8 @@
 
 论文地址：http://ismir2018.ircam.fr/doc/pdfs/250_Paper.pdf
 
+
+BY 朱鸿宁_(:з」∠)_
 ### Motivation：
 
 - 在整个MER领域的研究中，依然有很多Limitation：一是缺乏公共的高质量的数据集；二是与情感相关的声学特征的数量不足
