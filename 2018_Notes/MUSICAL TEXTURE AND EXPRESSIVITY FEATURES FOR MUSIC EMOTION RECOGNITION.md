@@ -104,3 +104,35 @@ BY 朱鸿宁_(:з」∠)_
 分类的结果，主要是评估目前的音频特征以及作者提出的新型特性与MER的相关性。其中baseline最好为67.5%左右（100个特征内），而加入novel features之后，novel+baseline的最好F1-Score为76.0%，100个特征中有29个是novel，8个texture，21个expressive，剩下71个还是baseline（50个tone color相关 音色）
 
 同时：有更高的arousal的情感更容易区分（Q1、Q2），而Q3、Q4的歌曲一般具有相同的音乐特征。在novel features的加入后，对Q3的提升最大。
+
+
+
+## Musical Texture And Expressivity Features For Music Emotion Recognition
+
+By 王磊
+
+这篇是对朱鸿宁的论文笔记做一些补充。
+
+**Key points**
+
+作者分析当前情感研究中使用的特征，发现大多数特征是底层特征，大多tone color相关的特征。非常缺乏和musical form，music texture和expressive techniques有关的特征，基于此，作者提出一组新的算法，捕捉和musical texture，expressive techniques有联系的信息。为了验证算法，作者构建了一个包含900个30秒的音乐片段的数据集，以Russell emotion quadrants的形式，[此数据集开放下载](http://mir.dei.uc.pt/downloads.html)。
+
+作者用自己提出的novel features和一些经典的特征一起，获得了7.9%F1-Score的提升。
+
+**dataset**
+
+1.作者通过AllMusic API 获得30秒长的audio clips，和歌曲的metadata(包括artist，title，mood，genre)，每首歌带有几个情感标签，总共有289类，将这289类标签和Warriner list取交集，获得每个标签的AV 值，一共有200个tags可以获得匹配的AV值，由于每首歌可能有多个标签，作者只选择了超过总标签数50%的那个标签。
+
+2.由于AllMusic这些标签的获得过程没有完全记录，除了有些标签是由专家标注的，还有一些疑惑就是这些标签标注的过程中，标注者只单独考虑了audio还是lyrics，还是两者一并考虑。同样作者也观察到一些无效的clips，因此作者又对数据集进行了验证，随机分配给验证者一些clips，根据自己perceived的情感来进行标注
+
+3.作者最后移除掉验证者和AllMusic两者标注不符合的clips，最后重新平衡了每个象限clip的数目，每个象限有225个，公共900个。
+
+**Methods**
+
+作者将Marsyas，MIR Toolbox，PsySound3提取的1702个特征，使用Relief 特征选取算法计算出每个特征对于这个问题的权重值，移除了每对相关值超过0.9中权值低的那个，将1702个特征降到898个，将这898个特征用来训练baseline models。
+
+.....
+
+**my opinion**
+
+这篇文章的创新点在于提出一组Musical texture features和Expressivity features，可惜我现在怎么也不懂。
