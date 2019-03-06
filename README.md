@@ -23,3 +23,8 @@
 2018-12
 
 - [2018  (mirex)   Representation Learning Using Artist Labels For Audio Classification Tasks](https://github.com/1996Wanglei/Papernotes/blob/master/2018_Notes/Representation_%20Learning_Using%20Artist_Labels_For%20Audio_Classification_Tasks.md)
+
+2019-3
+
+- [2017 (ISMIR) TRANSFER LEARNING FOR MUSIC CLASSIFICATION AND REGRESSION TASKS](https://github.com/1996Wanglei/Papernotes/blob/master/2018_Notes/TRANSFER%20LEARNING%20FOR%20MUSIC%20CLASSIFICATION%20AND%20REGRESSION%20TASKS(2017ISMIR).md)
+
