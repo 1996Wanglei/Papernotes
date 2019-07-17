@@ -2,7 +2,7 @@
 
 这个repo是用来记录论文笔记和总结的，好记性不如烂笔头，读过的论文总是会忘记，当我们自己写paper的related work时候，尤其需要自己读过的论文总结。
 
-这里的论文基本上和music emotion有关，暂时是我和一些小伙伴读的论文总结组成。每篇论文总结包括但不限于以下部分：文章的大致idea，key points，以及论文存疑部分等。 
+这里的论文基本上和music information retrieval有关，暂时是我和一些小伙伴读的论文总结组成。每篇论文总结包括但不限于以下部分：文章的大致idea，key points，以及论文存疑部分等。 
 
 
 
@@ -27,4 +27,8 @@
 2019-3
 
 - [2017 (ISMIR) TRANSFER LEARNING FOR MUSIC CLASSIFICATION AND REGRESSION TASKS](https://github.com/1996Wanglei/Papernotes/blob/master/2018_Notes/TRANSFER%20LEARNING%20FOR%20MUSIC%20CLASSIFICATION%20AND%20REGRESSION%20TASKS(2017ISMIR).md)
+
+2019-7
+
+- [2018  (ISMIR) Onsets and frames: a dual-objective piano transcription ](https://github.com/1996Wanglei/Papernotes/blob/master/2018_Notes/Onsets%20and%20frames%20dual-objective%20piano%20transcription.md)
 
