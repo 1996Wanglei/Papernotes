@@ -32,3 +32,7 @@
 
 - [2018  (ISMIR) Onsets and frames: a dual-objective piano transcription ](https://github.com/1996Wanglei/Papernotes/blob/master/2018_Notes/Onsets%20and%20frames%20dual-objective%20piano%20transcription.md)
 
+2019-11
+
+- [2019 (ICLR) Music Transformer: Generating Music with Long-Term Structure](https://github.com/1996Wanglei/Papernotes/blob/master/2018_Notes/Music%20Transformer.md)
+
