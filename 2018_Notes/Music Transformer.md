@@ -49,7 +49,7 @@ Transformer的原理介绍现在太多了，在这里再赘述一遍，transform
 
 值得注意的是，论文中提到，词间距离的最大值限制在一个常数k，这意味着需要学习的RPR的数量书2k+1(上文k个词，下文k个词，当前词)，往右间隔超过k的词对应RPR中第2k个index，往左间隔超过k的词对应RPR中第0个index，如果一个有10个词的输入序列，k设为3,那么RPR的查询表为：
 
-![](https://github.com/1996Wanglei/Papernotes/blob/master/2018_ImageSet/look查询表.png)
+![](https://github.com/1996Wanglei/Papernotes/blob/master/2018_ImageSet/lookup查询表.png)
 
 - 超过一定距离，再精确的相对位置信息是时没有用的。
 - 限制最长距离能够提升模型在对未在训练阶段出现过的长度的序列的泛化能力
@@ -95,7 +95,7 @@ Transformer的输入是一个大小为 (batch_size, seq_length, embedding_dim)�
 
 不废话了，本篇论文的一个算法贡献是，它不需要中间张量R(seq_length, seq_length, dₐ)来计算query $Q$和相对位置向量表征$R$的矩阵乘法，正是这个向量带来了O($L^2d$)的空间复杂度。
 
-![](/Users/wanglei/博客文件/博客图片/paper_segment3.jpg)
+![](https://github.com/1996Wanglei/Papernotes/blob/master/2018_ImageSet/paper_segment3.jpg)
 
 不再采用18年NAACL那篇论文提出的方法，**而是将直接将Q和RPR向量(也就是那个查询表展示的向量，形状为seq_length, seq_length)相乘。因为作者发现通过从$QR^{T}$中求得的$S^{rel}$同样可以从$QE^{rT}$中通过变换求得，这样就避免了求中间向量R。**
 
